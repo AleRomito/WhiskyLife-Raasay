@@ -65,8 +65,8 @@ h3{
     margin: 0;
     margin-top: 10px;
 }
-#botella{
-    width: 80%;
+#botella-movil{
+    width: 70%;
     border-radius: 30px;
     margin-top: 30px;
 }
@@ -193,4 +193,61 @@ footer{
         margin-top: 20px;
     }
     
+    .form{
+        width: 50%;
+    }
+    #botella-movil{
+        display: none;
+    }
+    #botella-pc{
+        width: 80%;
+        border-radius: 30px;
+        margin-top: 30px;    
+    }
+    #up{
+        width: 5%;
+        border-radius: 15px;
+    }
+    #up img{
+        border-radius: 15px;
+    }
+    #redes{
+        width: 80%;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        color: #fff;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        font-size: 0.8rem;
+    }
+    #logo-youtube{
+        width: 33%;
+    }
+    #logo-instagram{
+        width: 33%;
+    }
+    #nro-whatsapp{
+        width: 33%;
+        justify-content: center;
+    }
+    footer{
+        text-align: center;
+        width: 100%;
+        background-color: rgb(70, 70, 70);
+    }
+    #imagenes-raasay{
+        width: 90%;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 20px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    #imagenes-raasay img{
+        width: 100%;
+        margin: 0;
+    }
+        
+
 }
