@@ -203,6 +203,7 @@ footer{
         display: none;
     }
     #botella-pc{
+        display: grid;
         width: 80%;
         border-radius: 30px;
         margin-top: 30px;    
