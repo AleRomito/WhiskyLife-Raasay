@@ -70,6 +70,9 @@ h3{
     border-radius: 30px;
     margin-top: 30px;
 }
+#botella-pc{
+    display: none;
+}
 #redes{
     width: 100%;
     color: #fff;
